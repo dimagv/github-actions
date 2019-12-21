@@ -39,7 +39,12 @@
             "ulimits": [], 
             "logConfiguration": {
                 "logDriver": "awslogs", 
-                "secretOptions": []
+                "secretOptions": [],
+                "options": {
+                    "awslogs-group": "/ecs/github-actions",
+                    "awslogs-region": "us-east-1",
+                    "awslogs-stream-prefix": "ecs"
+                }
             }, 
             "healthCheck": null, 
             "systemControls": [], 
