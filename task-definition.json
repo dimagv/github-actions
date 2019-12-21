@@ -6,10 +6,7 @@
     "containerDefinitions": [
         {
             "name": "hello-world", 
-            "image": "nginx:latest", 
-            "repositoryCredentials": {
-                "credentialsParameter": ""
-            }, 
+            "image": "nginx:latest",
             "cpu": 0, 
             "memory": 0, 
             "memoryReservation": 0, 
