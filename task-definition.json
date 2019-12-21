@@ -169,58 +169,16 @@
             }
         }
     ], 
-    "volumes": [
-        {
-            "name": "", 
-            "host": {
-                "sourcePath": ""
-            }, 
-            "dockerVolumeConfiguration": {
-                "scope": "task", 
-                "autoprovision": true, 
-                "driver": "", 
-                "driverOpts": {
-                    "KeyName": ""
-                }, 
-                "labels": {
-                    "KeyName": ""
-                }
-            }
-        }
-    ], 
-    "placementConstraints": [
-        {
-            "type": "memberOf", 
-            "expression": ""
-        }
-    ], 
+    "volumes": [], 
+    "placementConstraints": [], 
     "requiresCompatibilities": [
         "FARGATE"
     ], 
     "cpu": "256", 
     "memory": "512", 
-    "tags": [
-        {
-            "key": "", 
-            "value": ""
-        }
-    ], 
+    "tags": [], 
     "pidMode": "task", 
     "ipcMode": "none", 
-    "proxyConfiguration": {
-        "type": "APPMESH", 
-        "containerName": "", 
-        "properties": [
-            {
-                "name": "", 
-                "value": ""
-            }
-        ]
-    }, 
-    "inferenceAccelerators": [
-        {
-            "deviceName": "", 
-            "deviceType": ""
-        }
-    ]
+    "proxyConfiguration": {}, 
+    "inferenceAccelerators": []
 }
