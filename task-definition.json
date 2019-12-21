@@ -16,13 +16,7 @@
             "links": [
                 ""
             ], 
-            "portMappings": [
-                {
-                    "containerPort": 0, 
-                    "hostPort": 0, 
-                    "protocol": "tcp"
-                }
-            ], 
+            "portMappings": [], 
             "essential": true, 
             "entryPoint": [
                 ""
