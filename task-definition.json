@@ -9,7 +9,7 @@
             "image": "nginx:latest",
             "cpu": 0, 
             "memory": null, 
-            "memoryReservation": 0, 
+            "memoryReservation": null, 
             "links": [], 
             "portMappings": [], 
             "essential": true, 
